@@ -1,0 +1,72 @@
+body{
+    background-image: url(../images/sky1.jpg);
+}
+.logo{
+    width: 300px;
+}
+.topMenu{
+    background-color: rgba(225,225,225,0.5);
+}
+#loginerrClass{
+    display: none;
+    margin-top: 10px;
+}
+.userListMainContainer,.studentListMainContainer,.courseListMainContainer{
+    border-right: 1px solid #999;
+}
+.welcomUserImg{
+    float: left;
+    margin-right: 10px;
+}
+.welcomUser{
+    float: left;
+    border-left: 1px solid #000;
+    padding-left: 10px;
+    min-width: 300px;
+}
+.userTopImg{
+    float: left;
+    margin-right: 10px;
+}
+.userTopImg img{
+    width: 70px;
+}
+.courseImg{
+    width: 100%;
+}
+#editCourseBtn, .deleteCourseBtn, #editAdminBtn, .deleteUserBtn,#editStudenteBtn, .deleteStudentBtn{
+    float: right;
+}
+#editCourseBtn, #editAdminBtn, #editStudenteBtn{
+    margin-right: 10px;
+}
+.adminLgImg, .studentLgImg ,.courseLgImg{
+    max-width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+.courseTitle, .userNameTop, .studentTitle{
+    float: left;
+}
+.card{
+    margin: 10px 0;
+}
+.addUserBtn, .addCourseBtn, .addAStudentBtn{
+    width:  100%;
+}
+.studentImg{
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+}
+.userListContainer, .studentListContainer, .courseListContainer{
+    max-height:450px;
+    overflow: scroll;
+}
+.userAdded, .studentAdded, .courseAdded{
+    display: none;
+}
+.errMsg{
+    color: red;
+    display: none;
+}
